@@ -6,3 +6,5 @@
 **My goal with this repository is to try to implement their way of analysis into Python**. 
 
 Some of the analyses are good and I think as a learner it is a nice way to learn better data representation while at the same time practicing and improving EDA skills on varied datasets.
+
+Alongside with Jupyter Notebook I will also create dashboards using Streamlit to showcase it.
