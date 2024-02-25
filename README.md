@@ -1,10 +1,5 @@
-## TidyTuesday in Python
+## Story in Pixels
 
-  - TidyTuesday is a weekly social data project where users bring their data or at times the data is given and analyzed in **R**.
-  - The R4DS Online Learning Community organizes it. Join their [Slack](https://r4ds.io/join) for free online help with R and other data-related topics, or to participate in data-related book clubs.
+A fancy way to tell that this repository is a showcase and so learning progress to analyze data. Not only analyzing but also able to tell a comprehensive story along with it. 
 
-**My goal with this repository is to try to implement their way of analysis into Python**. 
-
-Some of the analyses are good and I think as a learner it is a nice way to learn better data representation while at the same time practicing and improving EDA skills on varied datasets.
-
-Alongside Jupyter Notebook, I will also create dashboards using Streamlit to showcase it. Each of the data analyses and data will described in a very informative manner for replication.
+Most of the datasets are from public repositories. This repository focuses on EDA, feature engineering, data modeling, and ML algorithms to fit the data. I won't focus too much on optimizing the model performances (I'm GPU-poor).
