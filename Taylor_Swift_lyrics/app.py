@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
-from pysankey2 import Sankey
+#from pysankey2 import Sankey
 import nltk
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
