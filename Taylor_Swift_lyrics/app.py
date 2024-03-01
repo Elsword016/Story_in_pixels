@@ -15,6 +15,7 @@ from plotly.subplots import make_subplots
 import string 
 import re
 import plotly.figure_factory as ff
+import scipy
 nltk.download('punkt')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 # Set the title of the web app
