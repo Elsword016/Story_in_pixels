@@ -2,6 +2,7 @@
 
 This analysis aims to have a more in-depth look at her discography and songwriting, with a special attention to the results achieved in terms of Spotify streams and pure sales.
 
+Next will I will try to make a lyrics generator by finetuning a small LLM.
 
 Streamlit Dashboard - [Here](https://storyinpixels-taylorswift.streamlit.app/)
 
