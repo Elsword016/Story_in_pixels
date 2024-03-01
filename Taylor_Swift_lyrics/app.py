@@ -25,7 +25,7 @@ st.set_page_config(
 #dark background
 @st.cache_data
 def load_data():
-    data = pd.read_csv('taylorswiftspotify.csv',encoding='latin1')
+    data = pd.read_csv('Taylor_Swift_lyrics/taylorswiftspotify.csv',encoding='latin1')
     return data
 
 data = load_data()
@@ -229,7 +229,7 @@ st.write('Let us see the pure sales of her albums')
 st.write(f'Swift is known for being one of the best-selling musicians of all time. When she releases new music, she always tops the chart.')
 
 def sales_data():
-    sales = pd.read_csv('albumsales.csv')
+    sales = pd.read_csv('Taylor_Swift_lyrics/albumsales.csv')
     return sales
 
 sales = sales_data()
@@ -252,7 +252,7 @@ st.write('1989 is Swift’s most sold album. Followed by Fearless and Speak Now.
 
 header5 = '''## 1989 Sales'''
 def sales_data2():
-    sales2 = pd.read_csv('album1989dailystreams.csv')
+    sales2 = pd.read_csv('Taylor_Swift_lyrics/album1989dailystreams.csv')
     return sales2
 
 sales_1989 = sales_data2()
