@@ -9,4 +9,4 @@ Most of the datasets are from public repositories. This repository focuses on ED
 ## 1. Taylor Swift Lyrics data 
 The aim of this analysis is to have a more in dept look at her discography and songwriting, with a special attention to the results achieved in terms of Spotify streams and pure sales. It also features an [Streamlit Dashboard](https://storyinpixels-taylorswift.streamlit.app/) to have a better visualization of the key features of the data.
 
-The datasets used are all from Kaggle.
+The datasets used are all from Kaggle. Additionally, I processed the data and fine-tuned the latest [Gemma-2b](https://ai.google.dev/gemma/docs) model from Google to generate lyrics similar in style. It also comes with a gradio interface.
