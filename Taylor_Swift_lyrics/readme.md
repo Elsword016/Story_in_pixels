@@ -6,7 +6,9 @@ Next, I will try to make a lyrics generator by finetuning a small LLM.
 
 **Streamlit Dashboard** - [Here](https://storyinpixels-taylorswift.streamlit.app/)
 
-**Lyrics Generator**- [Gemma-2b model fine-tuned with Taylor Swift song lyrics](https://huggingface.co/LuciexJune/Gemma_2b_LoRA_tuned)🤗
+**Lyrics Generator model**- [Gemma-2b model fine-tuned with Taylor Swift song lyrics](https://huggingface.co/LuciexJune/Gemma_2b_LoRA_tuned)🤗
+
+**Gradio interface script** - [Lyrics generation interface](Taylor_Swift_lyrics/Gemma_2b_LoRA_tuning)
 
 ![image](https://github.com/Elsword016/Story_in_pixels/assets/29883365/9048d7e9-0f37-4f97-bf43-d53713a62b87)
 
