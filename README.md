@@ -10,3 +10,10 @@ Most of the datasets are from public repositories. This repository focuses on ED
 The aim of this analysis is to have a more in dept look at her discography and songwriting, with a special attention to the results achieved in terms of Spotify streams and pure sales. It also features an [Streamlit Dashboard](https://storyinpixels-taylorswift.streamlit.app/) to have a better visualization of the key features of the data.
 
 The datasets used are all from Kaggle. Additionally, I processed the data and fine-tuned the latest [Gemma-2b](https://ai.google.dev/gemma/docs) model from Google to generate lyrics similar in style. It also comes with a gradio interface.
+
+##2. General Trends in Artificial Intelligence
+This analysis aims to understand the recent trends in AI, in terms of models' performances, costs to train, corporate investments, etc.
+
+Streamlit dashboard: [[here]](link)
+
+Datasets from : Our World in Data.
