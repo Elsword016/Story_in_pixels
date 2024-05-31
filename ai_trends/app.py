@@ -48,7 +48,7 @@ header = '''
 ## Exponential increase in the computation used to train AI
 '''
 st.markdown(header)
-train_compute = load_data('ai_trends/artificial-intelligence-training-computation.csv)
+train_compute = load_data('ai_trends/artificial-intelligence-training-computation.csv')
 train_compute = train_compute.drop(['Code'],axis=1)
 train_compute['year'] = pd.DatetimeIndex(train_compute['Day']).year
 fig = px.scatter(train_compute,x='year',y='Training computation (petaFLOP)',color='Domain',log_y=True,hover_data=['Entity'],title='Exponential increase in the computation used to train AI')
