@@ -14,6 +14,6 @@ The datasets used are all from Kaggle. Additionally, I processed the data and fi
 ## 2. General Trends in Artificial Intelligence
 This analysis aims to understand the recent trends in AI, in terms of models' performances, costs to train, corporate investments, etc.
 
-Streamlit dashboard: [[here]](link)
+Streamlit dashboard: [[link]](https://aitrends.streamlit.app/)
 
 Datasets from : Our World in Data.
