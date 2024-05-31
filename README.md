@@ -11,7 +11,7 @@ The aim of this analysis is to have a more in dept look at her discography and s
 
 The datasets used are all from Kaggle. Additionally, I processed the data and fine-tuned the latest [Gemma-2b](https://ai.google.dev/gemma/docs) model from Google to generate lyrics similar in style. It also comes with a gradio interface.
 
-##2. General Trends in Artificial Intelligence
+## 2. General Trends in Artificial Intelligence
 This analysis aims to understand the recent trends in AI, in terms of models' performances, costs to train, corporate investments, etc.
 
 Streamlit dashboard: [[here]](link)
