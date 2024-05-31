@@ -28,7 +28,7 @@ def load_data(data_path):
     df = pd.read_csv(data_path)
     return df
 
-data = load_data(r'D:\portfolio\ai_trends\ai-performance-knowledge-tests-vs-training-computation.csv')
+data = load_data('ai_trends/ai-performance-knowledge-tests-vs-training-computation.csv')
 st.title('Key insights on Artificial Intelligence in recent years')
 st.markdown('This is a dashboard that provides insights on AI-related metrics that let you monitor what is happening and where we might be heading')
 header = '''
@@ -48,7 +48,7 @@ header = '''
 ## Exponential increase in the computation used to train AI
 '''
 st.markdown(header)
-train_compute = load_data(r'D:\portfolio\ai_trends\artificial-intelligence-training-computation.csv')
+train_compute = load_data('ai_trends/artificial-intelligence-training-computation.csv)
 train_compute = train_compute.drop(['Code'],axis=1)
 train_compute['year'] = pd.DatetimeIndex(train_compute['Day']).year
 fig = px.scatter(train_compute,x='year',y='Training computation (petaFLOP)',color='Domain',log_y=True,hover_data=['Entity'],title='Exponential increase in the computation used to train AI')
@@ -61,7 +61,7 @@ header='''
 ## Corporate investment in AI
 '''
 st.markdown(header)
-corpo = load_data(r'D:\portfolio\ai_trends\corporate-investment-in-artificial-intelligence-by-type.csv')
+corpo = load_data('ai_trends/corporate-investment-in-artificial-intelligence-by-type.csv')
 fig = px.bar(corpo,x='Year',y='Total corporate investment - inflation adjusted',color='Entity')
 fig.update_layout(xaxis_showgrid=True, yaxis_showgrid=True)
 st.plotly_chart(fig, use_container_width=False)
@@ -74,7 +74,7 @@ st.markdown(header)
 header_txt = '''### Design'''
 st.markdown(header_txt)
 #make three columns
-share = load_data(r'D:\portfolio\ai_trends\market-share-logic-chip-production-manufacturing-stage.csv')
+share = load_data('ai_trends/market-share-logic-chip-production-manufacturing-stage.csv')
 share = share.drop(['Code'],axis=1)
 share = share.dropna()
 st.write("More than 90% of these chips are designed and assembled in only a handful of countries: the United States, Taiwan, China, South Korea, and Japan.")
