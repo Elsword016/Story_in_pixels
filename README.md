@@ -17,3 +17,10 @@ This analysis aims to understand the recent trends in AI, in terms of models' pe
 Streamlit dashboard: [[link]](https://aitrends.streamlit.app/)
 
 Datasets from : Our World in Data.
+
+## 3. A/B Testing for a T-shirt buisness
+The company name is anonymized for legal reasons. I conducted A/B testing for a local T-shirt business in 2020 to help the business make data-driven decisions. It features a Streamlit Dashboard with insights from the data [Streamlit Dashboard](https://storyinpixels-myoiumhy5stbuazu5wd8pq.streamlit.app/) 
+
+The datasets are altered from the original for privacy reasons, with permission. 
+
+A static Power BI dashboard can be found [Dashboard](AB_Testing/data_dashboard.pdf)
