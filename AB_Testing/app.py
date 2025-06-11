@@ -170,9 +170,9 @@ def create_conversion_sankey(ctrl_grp, test_grp):
 
     return fig
 
-ctrl_grp_df, test_grp_df,kpi_summary_df = load_data('control_group.csv', 'test_group.csv','kpi_summary_row1.csv')
+ctrl_grp_df, test_grp_df,kpi_summary_df = load_data('AB_Testing/control_group.csv', 'AB_testing/test_group.csv','AB_testing/kpi_summary_row1.csv')
 #combined_data = pd.concat([ctrl_grp_df, test_grp_df], ignore_index=True)
-combined_data = load_combined_data('combined_data.csv')
+combined_data = load_combined_data('AB_Testing/combined_data.csv')
 
 #st.markdown("**Date:** October 26, 2023")
 #st.markdown("**To:** Marketing Leadership, Sales Team")
