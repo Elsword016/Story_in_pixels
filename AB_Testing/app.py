@@ -170,7 +170,7 @@ def create_conversion_sankey(ctrl_grp, test_grp):
 
     return fig
 
-ctrl_grp_df, test_grp_df,kpi_summary_df = load_data('control_group.csv', 'test_group.csv','kpi_summary_row1.csv')
+ctrl_grp_df, test_grp_df,kpi_summary_df = load_data('AB_testing/control_group.csv', 'test_group.csv','kpi_summary_row1.csv')
 #combined_data = pd.concat([ctrl_grp_df, test_grp_df], ignore_index=True)
 combined_data = load_combined_data('combined_data.csv')
 
@@ -185,7 +185,7 @@ st.subheader("Executive Summary")
 st.markdown("Our recent A/B test reveals a critical divergence in campaign performance: the **Test Campaign significantly boosts ad engagement (CTR +66.5%) but results in lower actual conversions (CR -12.1%)** compared to the Control Campaign. This suggests the Test Campaign is excellent at attracting attention but struggles to convert that attention into desired actions.")
 st.markdown("**Immediate action should focus on optimizing the post-click experience for the Test Campaign (landing page alignment) and refining its audience targeting to improve conversion quality.**")
 #link the pdf file
-st.markdown("[Download the static dashboard](D:/portfolio/end-to-end/AB_testing/data_dashboard.pdf)") 
+#st.markdown("[Download the static dashboard](D:/portfolio/end-to-end/AB_testing/data_dashboard.pdf)") 
 st.markdown("---") 
 
 st.subheader("Key Performance Indicators (KPIs)") 
