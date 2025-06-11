@@ -1,0 +1,6 @@
+Metric,Control,Test,Lift (%),P-value,Significant? (✓/✗)
+Conversion Rate (CR),9.83%,8.64%,-12.06%,0.0000,✓
+Click-Through Rate (CTR),4.86%,8.09%,66.54%,0.0000,✓
+Cost Per Acq. (CPA),4.41,4.92,-12.06%,0.0000 (Note: Verify test method for CPA),✓
+Total Spend,"66,818.00","76,892.00",15.08%,N/A,N/A
+Total Purchases,"15,161","15,637",3.14%,N/A,N/A
