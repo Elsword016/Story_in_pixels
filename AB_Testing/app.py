@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from plotly.subplots import make_subplots
 import plotly.express as px
+import os 
 st.set_page_config(
     page_title="A/B Test Dashboard",
     page_icon="📊", # You can use an emoji or a URL to an image
@@ -169,8 +170,11 @@ def create_conversion_sankey(ctrl_grp, test_grp):
     )
 
     return fig
-
-ctrl_grp_df, test_grp_df,kpi_summary_df = load_data('Story_in_pixels/AB_testing/control_group.csv', 'test_group.csv','kpi_summary_row1.csv')
+BASE_DIR = os.path.dirname(__file__)
+ctrl_path = os.path.join(BASE_DIR, 'control_group.csv')
+test_path = os.path.join(BASE_DIR, 'test_group.csv')
+kpi_path = os.path.join(BASE_DIR, 'kpi_summary_row1.csv')
+ctrl_grp_df, test_grp_df, kpi_summary_df = load_data(ctrl_path, test_path, kpi_path)
 #combined_data = pd.concat([ctrl_grp_df, test_grp_df], ignore_index=True)
 combined_data = load_combined_data('combined_data.csv')
 
