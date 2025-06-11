@@ -191,7 +191,7 @@ st.subheader("Executive Summary")
 st.markdown("Our recent A/B test reveals a critical divergence in campaign performance: the **Test Campaign significantly boosts ad engagement (CTR +66.5%) but results in lower actual conversions (CR -12.1%)** compared to the Control Campaign. This suggests the Test Campaign is excellent at attracting attention but struggles to convert that attention into desired actions.")
 st.markdown("**Immediate action should focus on optimizing the post-click experience for the Test Campaign (landing page alignment) and refining its audience targeting to improve conversion quality.**")
 #link the pdf file
-st.markdown("[Download the static dashboard](dash_path)") 
+st.markdown("[Download the static dashboard](https://github.com/Elsword016/Story_in_pixels/blob/main/AB_Testing/data_dashboard.pdf)") 
 st.markdown("---") 
 
 st.subheader("Key Performance Indicators (KPIs)") 
